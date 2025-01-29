@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "name": "((Form Name or ID))",
+        "location": "((Page where form submit occurred))",
+        "cta": "quote|download|subscribe",
+        "type": "brand|lead"
+    },
+
+    "source": {
+        "utmSource": "((string_utm_source))",
+        "utmMedium": "((string_utm_medium))",
+        "utmCampaign": "((string_utm_campaign))",
+        "utmContent": "((string_utm_content))",
+        "utmTerm": "((string_utm_term))",
+        "gclid": "((string_gclid))",
+        "itCampaign": "((string_iterable_campaign_id))",
+        "sfCamapign": "((string_salesforce_campaign_id))"
+    },
+
+    "category": ["aff", "app", "brand", "cm", "hud", "mff", "sbl", "senior", "student", "wdip", "wdis", "webcast", "zel"],
+
+    "data": {
+        "optin": {
+            "marketing": "((boolean_marketing opt in))",
+            "business-line-abbr": "((boolean_marketing opt in))"
+        },
+
+        "contact": {
+            "firstName": "((string_Submitter First Name))",
+            "lastName": "((string_Submitter Last Name))",
+            "email": "((string_Submitter Email))",
+            "phone": "((string_Submitter Phone))",
+            "company": "((string_Submitter Company))",
+            "title": "((string_Submitter Job Title))",
+            "creExperience": "((number_years of experience))",
+            "ownedMultifamily": "((number_properties owned))"
+        },
+
+        "loan": {
+            "purpose": "((string_loan purpose))",
+            "amount": "((number_loan amount))",
+            "ltv": "((number_loan to value 0-100))",
+            "timingMonths": "((number_estimated months to close))"
+        },
+
+        "property": {
+            "street": "((string_property street))",
+            "city": "((string_property city))",
+            "state": "((string_property state))",
+            "stateAbbrev": "((string_property state abbreviation))",
+            "type": "((string_property asset class))",
+            "details": "((string_property details open text))"
+        },
+
+        "comments": "((string_comments opent text))"
+    }
+}
