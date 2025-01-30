@@ -1,9 +1,9 @@
 {
     "metadata": {
-        "name": "((Form Name or ID))",
-        "location": "((Page where form submit occurred))",
-        "cta": "quote|download|subscribe",
-        "type": "brand|lead"
+        "name": "((string_form name or id))",
+        "location": "((string_url form location))",
+        "cta": "string_quote|download|subscribe",
+        "type": "string_brand|lead"
     },
 
     "source": {
