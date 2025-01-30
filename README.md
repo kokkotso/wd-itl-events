@@ -4,7 +4,7 @@
 This repo contains references for Iterable custom event data schema in JSON. These are primarily used in constructing the Zapier zaps to push Webflow form data into Iterable. 
 
 ## Usage
-In Zapier, copy reference JSON directly into the Iterable App > Configure > "JSON data fields". Make sure you're using the correct reference for the desired custom event (e.g. submitForm, registerWebcast, attendEvent, etc.). Where you see the "((datatype_description))" pattern, replace with Zapier variables representing Webflow form data. All fields are optional.
+In Zapier, copy reference JSON directly into the Iterable App > Configure > "JSON data fields". Make sure you're using the correct reference for the desired custom event (e.g. submitForm, registerWebcast, attendEvent, etc.). Where you see the `((datatype_description))` pattern, replace with Zapier variables representing Webflow form data. All fields are optional.
 
 **Important: For all data types except boolean & number, make sure the variable is encapsulated in quotation marks.**
 
